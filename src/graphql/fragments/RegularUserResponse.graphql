@@ -1,0 +1,11 @@
+fragment RegularUserResponse on UserResponse {
+  errors{
+    field
+    message
+  }
+  user{
+    ...RegularUser      
+  } 
+}
+
+
